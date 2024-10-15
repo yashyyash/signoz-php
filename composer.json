@@ -1,0 +1,33 @@
+{
+    "name": "yash/pearlthought",
+    "description": "my first signoz",
+    "type": "project",
+    "require": {
+        "php": "^8.3",
+        "open-telemetry/opentelemetry": "^1.0",
+        "guzzlehttp/promises": "^2.0",
+        "php-http/httplug": "^2.4" 
+    },
+    "require-dev": {
+        "php": "^8.3"  
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yash\\Pearlthought\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yash"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "tbachert/spi": true
+        }
+    }
+}
